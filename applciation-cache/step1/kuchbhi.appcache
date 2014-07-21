@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# version 11.00
+
+
+# Explicitly cached entries
+
+# images for loading in cache
+img/p1.png
+
+# HTML for loading in cache
+clientlist.html
+
+
+
+#Network  : resources are only available while online
+NETWORK:
+*
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+notcached/ default/files-not-available.html
+contactus default/files-not-available.html

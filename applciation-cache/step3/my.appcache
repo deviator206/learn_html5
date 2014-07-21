@@ -1,0 +1,12 @@
+CACHE MANIFEST
+#version 1.7
+
+# images for loading in cache
+asset/img1.png
+asset/page1.html
+
+NETWORK:
+*
+
+FALLBACK:
+asset/page2.html asset/offline.html  
